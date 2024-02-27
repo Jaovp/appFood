@@ -10,7 +10,7 @@ export class HomePage implements OnInit {
   swiperModules = [IonicSlides];
   banners: any[] = [];
   restaurants: any[] = [];
-  isLoading: boolean = false;
+  isLoading: boolean = true;
 
   constructor() { }
 
@@ -70,7 +70,7 @@ export class HomePage implements OnInit {
         },
       ];
       this.isLoading = false;
-    },3000);
+    },2000);
 
   }
 
